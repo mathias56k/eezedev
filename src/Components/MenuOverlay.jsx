@@ -8,22 +8,10 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
       }`}
     >
       <ul className="w-full flex flex-col items-center justify-center">
-        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro transition ease-in-out duration-300 hover:text-[#46a2a1]">
+        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link"
-            onClick={(e) => {
-              e.preventDefault();
-              setNavbarOpen(false);
-            }}
-          >
-            home
-          </a>
-        </li>
-        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro hover:text-[#46a2a1]">
-          <a
-            href="/"
-            className="nav-link"
+            className="nav-link hover:text-[#46a2a1]"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);
@@ -32,10 +20,10 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
            about
           </a>
         </li>
-        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro hover:text-[#46a2a1]">
+        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link"
+            className="nav-link hover:text-[#46a2a1]"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);
@@ -44,10 +32,10 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
            projects
           </a>
         </li>
-        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro hover:text-[#46a2a1]">
+        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link"
+            className="nav-link hover:text-[#46a2a1]"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);

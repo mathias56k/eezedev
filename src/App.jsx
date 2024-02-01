@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import MenuOverlay from "./MenuOverlay";
+import Header from "./Components/Header";
+import MenuOverlay from "./Components/MenuOverlay";
 
 function App() {
   const [navbarOpen, setNavbarOpen] = useState(false);
