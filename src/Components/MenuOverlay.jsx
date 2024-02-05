@@ -3,7 +3,7 @@ import React from "react";
 const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
   return (
     <nav
-      className={`fixed flex top-0 right-0 w-full z-14 h-full bg-[#151a20] text-[#e8e6ce] bg-opacity-100 transform delay-100 transition-all duration-300 ${
+      className={`fixed flex top-0 right-0 w-full z-14 h-full bg-[#202831] text-[#e8e6ce] bg-opacity-100 transform delay-100 transition-all duration-300 ${
         navbarOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full"
       }`}
     >

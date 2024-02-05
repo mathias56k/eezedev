@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ navbarOpen, setNavbarOpen }) => {
   return (
-    <header className="w-full fixed top-0 left-0 flex z-20 px-8 pt-2">
+    <header className="w-full fixed top-0 left-0 flex z-20 px-8 p-2 bg-[#202831]">
       <div className="text-white flex-grow z-20">
         <a href="./">
           <img src="./eezedev-light-logo.png" alt="Logo" className="h-14" />
