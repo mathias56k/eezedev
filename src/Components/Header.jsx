@@ -30,6 +30,17 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
           ></span>
         </div>
       </button>
+      <div className="hidden md:flex gap-5 text-[#e8e6ce] mr-4">
+        <div className="h-full flex items-center justify-center">
+          <p className="text-xl font-bold">about</p>
+        </div>
+        <div className="h-full flex items-center justify-center">
+          <p className="text-xl font-bold">projects</p>
+        </div>
+        <div className="h-full flex items-center justify-center">
+          <p className="text-xl font-bold">contact</p>
+        </div>
+      </div>
     </header>
   );
 };
