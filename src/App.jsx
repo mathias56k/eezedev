@@ -4,6 +4,7 @@ import MenuOverlay from "./Components/MenuOverlay"
 import Hero from "./Components/Hero"
 import Pricing from "./Components/Pricing";
 import Faq from "./Components/Faq";
+import Footer from "./Components/Footer";
 
 function App() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -20,6 +21,7 @@ function App() {
         <div className="">
           <Faq />
         </div>
+        <Footer />
       </main>
     </div>
   );

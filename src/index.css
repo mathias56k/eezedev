@@ -5,3 +5,7 @@
 html {
   background-color: #202831;
 }
+
+body {
+  overflow-x: hidden;
+}

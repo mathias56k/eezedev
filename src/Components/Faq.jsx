@@ -4,9 +4,9 @@ import { IoIosArrowUp } from "react-icons/io";
 function Faq() {
     return (
         <div className="mt-5">
-          <div className="flex flex-col items-center">
-            <div className="w-[90%]">
-              <div className="p-2 bg-[#3f444b] rounded-2xl py-5">
+          <div className="flex flex-col items-center md:px-10">
+            <div className="w-[90%] max-w-[50rem]">
+              <div className="p-2 bg-[#344150] rounded-2xl py-5">
                 <Disclosure>
                   {({ open }) => (
                     <>
@@ -28,7 +28,7 @@ function Faq() {
                   )}
                 </Disclosure>
                 <div className='w-full flex justify-center my-5'>
-                    <hr className='w-[95%] border-[#67707c]' />
+                    <hr className='w-[95%] border-[#202831]' />
                 </div>
                 <Disclosure as="div" className="mt-2">
                   {({ open }) => (
@@ -51,7 +51,7 @@ function Faq() {
                   )}
                 </Disclosure>
                 <div className='w-full flex justify-center my-5'>
-                    <hr className='w-[95%] border-[#67707c]' />
+                    <hr className='w-[95%] border-[#202831]' />
                 </div>
                 <Disclosure as="div" className="mt-2">
                   {({ open }) => (
