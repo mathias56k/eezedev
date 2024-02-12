@@ -46,6 +46,18 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
            contact
           </a>
         </li>
+        <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
+          <a
+            href="/"
+            className="nav-link hover:text-[#46a2a1]"
+            onClick={(e) => {
+              e.preventDefault();
+              setNavbarOpen(false);
+            }}
+          >
+           faq
+          </a>
+        </li>
       </ul>
       <div className="h-16 w-full flex">
         <div className="h-full w-[50%] flex justify-center items-center">   
