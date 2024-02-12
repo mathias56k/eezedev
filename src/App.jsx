@@ -18,7 +18,7 @@ function App() {
         <Hero />
         <Pricing />
         <div className="">
-          {!navbarOpen && <Faq />}
+          <Faq />
         </div>
       </main>
     </div>
