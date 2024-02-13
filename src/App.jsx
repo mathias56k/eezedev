@@ -10,7 +10,7 @@ function App() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <div className="App w-full min-h-screen">
+    <div className="App w-full min-h-screen selection:bg-[#46a2a1]">
       <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
 
       <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />

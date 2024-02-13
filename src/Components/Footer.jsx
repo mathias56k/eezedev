@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Footer = ({ navbarOpen }) => {
-  const imgOpacity = navbarOpen ? 0 : 30;
+  const imgOpacity = navbarOpen ? 0 : 50;
 
   return (
     <div className="h-40 mt-20">
