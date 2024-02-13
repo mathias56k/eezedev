@@ -18,10 +18,8 @@ function App() {
       <main className="text-white mx-auto pt-[4.5rem]">
         <Hero />
         <Pricing />
-        <div className="">
-          <Faq />
-        </div>
-        <Footer />
+        <Faq navbarOpen={navbarOpen} />
+        <Footer navbarOpen={navbarOpen} />
       </main>
     </div>
   );
