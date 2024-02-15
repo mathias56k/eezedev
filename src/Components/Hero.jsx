@@ -10,7 +10,7 @@ const Hero = () => {
             <span className="inline-flex items-center">
               <span>BEAUTIFUL</span>
               <img src="./star.svg" alt="Beautiful Image" className="w-10 ml-[-1.25rem] mt-[-2rem] rotate-[30deg]" />
-              
+              <img src="./star.svg" alt="Beautiful Image" className="w-4 ml-[-1.5rem] mt-[.5rem] rotate-[20deg]" />
             </span>
             <span>WEBSITES MADE</span>
             <span className="text-[#46a2a1] md:ml-2 inline-flex flex-col h-[calc(theme(fontSize.5xl)*0.9)] md:h-[calc(theme(fontSize.5xl)*0.9)] overflow-hidden">
