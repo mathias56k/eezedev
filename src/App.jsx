@@ -5,6 +5,7 @@ import Hero from "./Components/Hero"
 import Pricing from "./Components/Pricing";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
+import Features from "./Components/Features";
 
 function App() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -15,8 +16,9 @@ function App() {
 
       <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
 
-      <main className="text-white mx-auto pt-[4.5rem]">
+      <main className="text-white pt-[4.5rem]">
         <Hero />
+        <Features />
         <Pricing />
         <Faq navbarOpen={navbarOpen} />
         <Footer navbarOpen={navbarOpen} />
