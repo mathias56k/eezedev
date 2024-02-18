@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="text-5xl font-black text-[#202831] tracking-wide leading-[.9]">
             <span className="inline-flex items-center">
               <span>BEAUTIFUL</span>
-              <img src="./star.svg" alt="Beautiful Image" className="w-10 ml-[-1.25rem] mt-[-2rem] rotate-[30deg]" />
+              <img src="./star.svg" alt="Beautiful Image" className="w-10 ml-[-1.25rem] mt-[-2rem] rotate-[30deg] animate-" />
               <img src="./star.svg" alt="Beautiful Image" className="w-4 ml-[-1.5rem] mt-[.5rem] rotate-[20deg]" />
             </span>
             <span>WEBSITES MADE</span>
