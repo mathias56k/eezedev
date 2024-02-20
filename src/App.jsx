@@ -17,7 +17,7 @@ function App() {
       <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
 
       <main className="text-white pt-[4.5rem]">
-        <Hero />
+        <Hero navbarOpen={navbarOpen} />
         <Features />
         <Pricing />
         <Faq navbarOpen={navbarOpen} />

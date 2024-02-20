@@ -73,7 +73,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
           </a>
         </li>
       </ul>
-      <div className="h-16 w-full flex">
+      <div className="h-16 w-full hidden">
         <div className="h-full w-[50%] flex justify-center items-center">   
           <button className="font-bold text-xl w-8 h-8 border-[#e8e6ce] border-2 rounded-md flex justify-center items-center hover:text-[#46a2a1]">
             <LuSunMedium />
