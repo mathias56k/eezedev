@@ -4,6 +4,8 @@ import { RiMoneyEuroCircleLine } from "react-icons/ri";
 import { IoIosSpeedometer } from "react-icons/io";
 import { FaLightbulb } from "react-icons/fa";
 import { GoGraph } from "react-icons/go";
+import { TbStretching } from "react-icons/tb";
+import { FaCheck } from "react-icons/fa";
 
 const Features = () => {
   return (
@@ -26,7 +28,7 @@ const Features = () => {
             <div className="w-full h-[20%] flex items-start justify-center pt-2 md:row-span-1 md:col-span-1 md:h-[10rem]">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center w-[45%] justify-center">
-                        <IoIosSpeedometer className="h-10 w-10 mr-4" />
+                        <TbStretching className="h-10 w-10 mr-4" />
                         <p className="text-2xl font-bold">Flexible</p>
                     </div>
                     <div className="w-[80%] lg:w-[60%] flex text-center my-2 leading-[1.2rem]">
@@ -54,7 +56,7 @@ const Features = () => {
             <div className="w-full h-[20%] flex items-start justify-center pt-2 md:row-span-1 md:col-span-1 md:h-[10rem]">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center w-[45%] justify-center">
-                        <IoIosSpeedometer className="h-10 w-10 mr-4" />
+                        <FaCheck className="h-8 w-8 mr-4" />
                         <p className="text-2xl font-bold">Easy</p>
                     </div>
                     <div className="w-[80%] lg:w-[60%] flex text-center my-2 leading-[1.2rem]">

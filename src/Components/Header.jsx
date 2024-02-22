@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Header = ({ navbarOpen, setNavbarOpen }) => {
+  const [scrolled, setScrolled] = useState(false);
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -8,17 +10,28 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
       }
     };
 
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [setNavbarOpen]);
 
+  const headerClasses = `w-full fixed top-0 left-0 flex justify-between z-30 px-8 p-2 bg-[#202831] ${
+    scrolled ? "drop-shadow-2xl" : ""
+  }`;
+
   return (
-    <header className="w-full fixed top-0 left-0 flex z-30 px-8 p-2 bg-[#202831]">
-      <div className="text-white flex-grow z-20">
-        <a href="./">
+    <header className={headerClasses}>
+      <div className="text-white z-20">
+        <a href="./" className="bg-red-900">
           <img src="./eezedev-light-logo.png" alt="Logo" className="h-14" />
         </a>
       </div>
