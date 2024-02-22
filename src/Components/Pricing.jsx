@@ -6,11 +6,11 @@ const Pricing = () => {
   return (
     <div>
       <div className='flex justify-center mb-5 mt-5'>
-        <h3 className='text-4xl font-bold tracking-wider lg:font-extrabold lg:text-5xl'>Pricing</h3>
+        <h3 className='text-4xl font-bold tracking-wider lg:font-extrabold lg:text-5xl lg:mb-2'>Pricing</h3>
       </div>
-      <div className="h-[60rem] p-8 pt-0 md:h-[50rem] md:p-10 md:pt-0 flex justify-center">
-        <div className="w-full h-full flex flex-col gap-8">
-          <div className="bg-[#e8e6ce] rounded-2xl w-full h-full flex flex-col items-center">
+      <div className="p-8 pt-0 flex justify-center">
+        <div className="w-full flex flex-col items-center md:items-start justify-center gap-8 md:gap-4 lg:gap-16 md:flex-row">
+          <div className="bg-[#e8e6ce] rounded-2xl w-full max-w-[27.2rem] md:h-[30rem] flex flex-col items-center">
             <div className="w-full h-[15%] flex items-center justify-center text-[#202831]">
               <p className="font-bold text-3xl">Standard</p>
             </div>
@@ -32,15 +32,15 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="h-[20%] w-full flex justify-center">
-              <button className="bg-[#46a2a1] h-16 w-80 rounded-2xl flex gap-2 text-[#202831]">
+              <button className="bg-[#46a2a1] h-16 w-[90%] mb-5 rounded-2xl flex text-[#202831]">
                 <p className="text-2xl font-black w-[60%] h-full flex items-center justify-center">Start now</p>
                 <div className="w-[40%] h-full flex items-center justify-end p-5">
-                <FaArrowRight className="w-6 h-6" />
+                  <FaArrowRight className="w-6 h-6" />
                 </div>
               </button>
             </div>
           </div>
-          <div className="bg-[#e8e6ce] rounded-2xl w-full h-full flex flex-col items-center">
+          <div className="bg-[#e8e6ce] rounded-2xl w-full h-full max-w-[27.2rem] md:h-[30rem] flex flex-col items-center">
             <div className="w-full h-[15%] flex items-center justify-center text-[#202831]">
               <p className="font-bold text-3xl">Pro</p>
             </div>
@@ -62,7 +62,7 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="h-[20%] w-full flex justify-center">
-              <button className="bg-[#46a2a1] h-16 w-80 rounded-2xl flex gap-2 text-[#202831]">
+              <button className="bg-[#46a2a1] h-16 w-[90%] mb-5 rounded-2xl flex text-[#202831]">
                 <p className="text-2xl font-black w-[60%] h-full flex items-center justify-center">Start now</p>
                 <div className="w-[40%] h-full flex items-center justify-end p-5">
                 <FaArrowRight className="w-6 h-6" />
