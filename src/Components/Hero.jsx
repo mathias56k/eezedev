@@ -29,10 +29,10 @@ const Hero = ({ navbarOpen }) => {
         </div>
         <div className="h-[40%] w-[95%] bg-[#344150] rounded-r-[9rem] mt-3 relative">
           <img src="./star-blank.svg" alt="" className="w-[6.8rem] animate-spin rotate-[30deg] absolute top-[-2rem] right-[-1rem] md:w-48 md:top-[-4rem]" />
-          <div className="flex flex-col items-center leading-[.9] font-bold text-xs absolute top-[-0.2rem] right-[.1rem] rotate-12 text-[#202831] md:text-xl md:font-extrabold md:right-[1.1rem] md:top-[-.6rem]">
+          <div className="flex flex-col items-center leading-[.9] font-bold text-xs absolute top-0 right-[.5rem] rotate-12 text-[#202831] md:text-xl md:font-extrabold md:right-[1.1rem] md:top-[-.6rem]">
             <p>HASSLE</p>
             <p className="font-black text-2xl leading-[.9] md:leading-[.6] md:text-4xl">FREE</p>
-            <p className="text-[.7rem] leading-[.9] md:text-xl">GUARANTEE</p>
+            <p className="text-[.6rem] leading-[.9] md:text-xl">GUARANTEE</p>
           </div>
           <img src="./character.png" alt="" className="w-48 absolute left-4 top-4 md:w-96 md:top-[-2rem] lg:w-[30rem] lg:top-[-8rem] lg:left-16" />
         </div>

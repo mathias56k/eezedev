@@ -22,7 +22,7 @@ const Pricing = () => {
                 <p className="text-[#e8e6ce] font-bold text-x mb-[-.7rem] ml-[.1rem]">m</p>
               </div>
             </div>
-            <div className="w-full h-[60%] pl-16 pt-3">
+            <div className="w-full h-[60%] pl-16 py-3">
               <ul className="font-semibold text-[#202831] text-md list-disc leading-10">
                 <li>One active job at a time</li>
                 <li>Average 48h delivery</li>
@@ -52,7 +52,7 @@ const Pricing = () => {
                 <p className="text-[#e8e6ce] font-bold text-x mb-[-.7rem] ml-[.1rem]">m</p>
               </div>
             </div>
-            <div className="w-full h-[60%] pl-16 pt-3">
+            <div className="w-full h-[60%] pl-16 py-3">
               <ul className="font-semibold text-[#202831] text-md list-disc leading-10">
                 <li className="font-black">Two active jobs at a time</li>
                 <li>Average 48h delivery</li>
