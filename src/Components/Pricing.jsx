@@ -17,7 +17,7 @@ const Pricing = () => {
             <hr className="w-[85%] h-1 bg-[#202831] border-0 rounded-full mb-5"/>
             <div className="flex items-start justify-start w-full h-16">
             <div className="w-[60%] bg-[#202831] h-full rounded-r-full flex items-center justify-center">
-                <p className="text-[#e8e6ce] font-bold text-4xl">250€</p>
+                <p className="text-[#e8e6ce] font-bold text-4xl">150€</p>
                 <p className="text-[#e8e6ce] font-bold text-x mb-[-.5rem] ml-[.2rem]">/</p>
                 <p className="text-[#e8e6ce] font-bold text-x mb-[-.7rem] ml-[.1rem]">m</p>
               </div>
@@ -47,7 +47,7 @@ const Pricing = () => {
             <hr className="w-[85%] h-1 bg-[#202831] border-0 rounded-full mb-5"/>
             <div className="flex items-start justify-start w-full h-16">
               <div className="w-[60%] bg-[#202831] h-full rounded-r-full flex items-center justify-center">
-                <p className="text-[#e8e6ce] font-bold text-4xl">400€</p>
+                <p className="text-[#e8e6ce] font-bold text-4xl">250€</p>
                 <p className="text-[#e8e6ce] font-bold text-x mb-[-.5rem] ml-[.2rem]">/</p>
                 <p className="text-[#e8e6ce] font-bold text-x mb-[-.7rem] ml-[.1rem]">m</p>
               </div>
