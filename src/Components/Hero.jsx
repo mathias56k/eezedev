@@ -4,8 +4,8 @@ const Hero = ({ navbarOpen }) => {
   const imgOpacity = navbarOpen ? 0 : 100;
 
   return (
-    <div className="absolute top-0 w-full">
-      <div className="w-full bg-[#e8e6ce] h-[28rem] rounded-b-[2rem] flex justify-center md:h-[28rem]">
+    <div className="h-[38rem] lg:h-[45rem] xl:h-[50rem] w-full">
+      <div className="w-full bg-[#e8e6ce] h-[28rem] rounded-b-[2rem] lg:rounded-b-[3rem] flex justify-center md:h-[28rem]">
         <div
           className={`bg-[#202831] w-[90%] md:w-[90%] lg:h-[35rem] xl:h-[40rem] h-[30rem] rounded-[2.5rem] absolute top-[4.6rem] opacity-${imgOpacity} delay-100 transition-opacity duration-300`}
         >
@@ -43,14 +43,13 @@ const Hero = ({ navbarOpen }) => {
               </span>
             </div>
           </div>
-        </div>
-        <div>
+          <div>
           <img
             src="./star-blank.svg"
             alt=""
-            className="w-[9rem] animate-spin rotate-[30deg] absolute top-[21rem] right-[3.5rem] sm:w-[11rem] sm:top-[22rem] sm:right-[3.5srem] md:top-[22rem] md:right-[5rem] lg:w-[14rem] lg:right-[5rem] xl:w-[18rem] 2xl:w-[20rem] 2xl:right-[10rem]"
+            className="w-[9rem] animate-spin rotate-[30deg] absolute top-[17rem] right-[2.5rem] sm:w-[11rem] sm:top-[17.5rem] sm:right-[3.5rem] md:top-[17rem] md:right-[2.5rem] lg:w-[14rem] lg:right-[4rem] xl:w-[18rem] 2xl:w-[20rem] 2xl:right-[8rem]"
           />
-          <div className="flex flex-col items-center leading-[.9] font-bold text-md absolute top-[23.5rem] right-[5.25rem] sm:text-xl sm:leading-[.9] sm:top-[24.8rem] sm:right-[5.3rem] md:top-[25rem] md:right-[6.8rem] lg:text-2xl lg:leading-[.9] lg:top-[26rem] lg:right-[7.4rem] xl:text-4xl xl:leading-[.9] xl:right-[8.2rem] xl:top-[26.6rem] 2xl:right-[14.2rem] 2xl:top-[27.5rem] rotate-12 text-[#202831]">
+          <div className="flex flex-col items-center leading-[.9] font-bold text-md absolute top-[19.6rem] right-[4.3rem] sm:text-xl sm:leading-[.9] sm:top-[20.4rem] sm:right-[5.3rem] md:top-[20rem] md:right-[4.3rem] lg:text-2xl lg:leading-[.9] lg:top-[21rem] lg:right-[6.4rem] xl:text-4xl xl:leading-[.9] xl:right-[7.5rem] xl:top-[22rem] 2xl:right-[12.5rem] 2xl:top-[23rem] rotate-12 text-[#202831]">
             <p>HASSLE</p>
             <p className="font-black text-4xl leading-[.9] sm:text-5xl sm:leading-[.9] lg:text-6xl lg:leading-[.9] xl:text-7xl xl:leading-[.9]">
               FREE
@@ -59,6 +58,7 @@ const Hero = ({ navbarOpen }) => {
               GUARANTEE
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

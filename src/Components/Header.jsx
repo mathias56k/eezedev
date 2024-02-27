@@ -25,7 +25,7 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
   }, [setNavbarOpen]);
 
   const headerClasses = `w-full fixed top-0 left-0 flex justify-between z-30 px-8 p-2 bg-[#e8e6ce] ${
-    scrolled ? "drop-shadow-2xl" : ""
+    scrolled && !navbarOpen ? "drop-shadow-2xl" : ""
   }`;
 
   return (

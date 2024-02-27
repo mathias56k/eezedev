@@ -9,7 +9,7 @@ import { FaCheck } from "react-icons/fa";
 
 const Features = () => {
   return (
-    <div className="my-20">
+    <div className="">
         <div className="w-full flex flex-col md:grid md:grid-rows-3 md:grid-cols-2 md:h-auto md:my-16 md:gap-2 xl:grid-cols-3 xl:grid-rows-2">
             <div className="w-full h-[20%] flex items-start justify-center pt-2 md:row-span-1 md:col-span-1 md:h-[10rem]">
                 <div className="flex flex-col items-center">
