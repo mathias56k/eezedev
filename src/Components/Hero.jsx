@@ -4,37 +4,61 @@ const Hero = ({ navbarOpen }) => {
   const imgOpacity = navbarOpen ? 0 : 100;
 
   return (
-    <div className="-mt-4 h-[30rem] p-5 md:h-[50rem] md:p-10 md:pt-5">
-      <div className={`bg-[#e8e6ce] w-full h-full rounded-2xl flex flex-col opacity-${imgOpacity} delay-100 transition-opacity duration-300`}>
-      <img src="./line.svg" alt="" className="w-[13rem] absolute top-[22.17rem] z-10 right-0 md:w-[23rem] md:top-[33.18rem]" />
-        <div className="h-[50%] w-[83%] md:w-full lg:max-w-[60rem] xl:max-w-[80rem] max-w-[26rem] p-8">
-          <div className="text-5xl font-black md:text-7xl xl:text-8xl text-[#202831] tracking-wide leading-[.9]">
-            <span className="inline-flex items-center">
-              <span>BEAUTIFUL</span>
-              <img src="./star.svg" alt="Beautiful Image" className="w-10 md:w-14 md:mt-[-3rem] ml-[-1.25rem] mt-[-2rem] rotate-[30deg] animate-" />
-              <img src="./star.svg" alt="Beautiful Image" className="w-4 md:w-6 ml-[-1.5rem] mt-[.5rem] rotate-[20deg]" />
-            </span>
-            <span className="lg:ml-6 ">WEBSITES MADE</span>
-            <span className="text-[#46a2a1] lg:ml-4 inline-flex flex-col h-[calc(theme(fontSize.5xl)*0.9)] md:h-[calc(theme(fontSize.7xl)*0.9)] xl:h-[calc(theme(fontSize.8xl)*0.9)] overflow-hidden">
-              <ul className="block animate-text-slide-5 text-left leading-[0.9] [&_li]:block">
-                <li>EASY</li>
-                <li>FAST</li>
-                <li>CHEAP</li>
-                <li>FROM US</li>
-                <li>TO YOU</li>
-                <li aria-hidden="true">EASY</li>
-              </ul>
-            </span>
+    <div className="absolute top-0 w-full">
+      <div className="w-full bg-[#e8e6ce] h-[28rem] rounded-b-[2rem] flex justify-center md:h-[28rem]">
+        <div
+          className={`bg-[#202831] w-[90%] md:w-[90%] lg:h-[35rem] xl:h-[40rem] h-[30rem] rounded-[2.5rem] absolute top-[4.6rem] opacity-${imgOpacity} delay-100 transition-opacity duration-300`}
+        >
+          <img
+            src="./line.svg"
+            alt=""
+            className="w-[17rem] lg:w-[22rem] lg:top-[17.93rem] xl:w-[30rem] xl:top-[16.72rem] absolute top-[16.8rem] z-10 right-[20]"
+          />
+          <div className="h-full w-full flex items-start justify-center pt-16">
+            <div className="text-5xl font-black sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#e8e6ce] tracking-wide flex flex-col items-center">
+              <span className="inline-flex items-center leading-[0.9]">
+                <span>BEAUTIFUL</span>
+                <img
+                  src="./star.svg"
+                  alt="Beautiful Image"
+                  className="w-10 md:w-14 md:mt-[-3rem] xl:w-16 ml-[-1.25rem] mt-[-2rem] rotate-[30deg]"
+                />
+                <img
+                  src="./star.svg"
+                  alt="Beautiful Image"
+                  className="w-4 md:w-6 ml-[-1.5rem] xl:w-8 xl:mt-[2rem] xl:ml-[-2rem] mt-[.5rem] rotate-[20deg]"
+                />
+              </span>
+              <span className="leading-[0.9]">WEBSITES</span>
+              <span className="leading-[0.9]">MADE</span>
+              <span className="text-[#46a2a1] lg:ml-4 inline-flex flex-col h-[calc(theme(fontSize.5xl)*0.9)] sm:h-[calc(theme(fontSize.6xl)*0.9)] md:h-[calc(theme(fontSize.7xl)*0.9)] lg:h-[calc(theme(fontSize.8xl)*0.9)] xl:h-[calc(theme(fontSize.8xl)*0.9)] overflow-hidden">
+                <ul className="block animate-text-slide-5 text-center leading-[0.9] [&_li]:block">
+                  <li>EASY</li>
+                  <li>FAST</li>
+                  <li>CHEAP</li>
+                  <li>FROM US</li>
+                  <li>TO YOU</li>
+                  <li aria-hidden="true">EASY</li>
+                </ul>
+              </span>
+            </div>
           </div>
         </div>
-        <div className="h-[40%] w-[95%] bg-[#344150] rounded-r-[9rem] mt-3 relative">
-          <img src="./star-blank.svg" alt="" className="w-[6.8rem] animate-spin rotate-[30deg] absolute top-[-2rem] right-[-1rem] md:w-48 md:top-[-4rem]" />
-          <div className="flex flex-col items-center leading-[.9] font-bold text-xs absolute top-0 right-[.5rem] rotate-12 text-[#202831] md:text-xl md:font-extrabold md:right-[1.1rem] md:top-[-.6rem]">
+        <div>
+          <img
+            src="./star-blank.svg"
+            alt=""
+            className="w-[9rem] animate-spin rotate-[30deg] absolute top-[21rem] right-[3.5rem] sm:w-[11rem] sm:top-[22rem] sm:right-[3.5srem] md:top-[22rem] md:right-[5rem] lg:w-[14rem] lg:right-[5rem] xl:w-[18rem] 2xl:w-[20rem] 2xl:right-[10rem]"
+          />
+          <div className="flex flex-col items-center leading-[.9] font-bold text-md absolute top-[23.5rem] right-[5.25rem] sm:text-xl sm:leading-[.9] sm:top-[24.8rem] sm:right-[5.3rem] md:top-[25rem] md:right-[6.8rem] lg:text-2xl lg:leading-[.9] lg:top-[26rem] lg:right-[7.4rem] xl:text-4xl xl:leading-[.9] xl:right-[8.2rem] xl:top-[26.6rem] 2xl:right-[14.2rem] 2xl:top-[27.5rem] rotate-12 text-[#202831]">
             <p>HASSLE</p>
-            <p className="font-black text-2xl leading-[.9] md:leading-[.6] md:text-4xl">FREE</p>
-            <p className="text-[.6rem] leading-[.9] md:text-xl">GUARANTEE</p>
+            <p className="font-black text-4xl leading-[.9] sm:text-5xl sm:leading-[.9] lg:text-6xl lg:leading-[.9] xl:text-7xl xl:leading-[.9]">
+              FREE
+            </p>
+            <p className="text-sm leading-[.9] sm:text-lg sm:leading-[.9] lg:text-xl lg:leading-[.9] xl:text-3xl xl:leading-[.9]">
+              GUARANTEE
+            </p>
           </div>
-          <img src="./character.png" alt="" className="w-48 absolute left-4 top-4 md:w-96 md:top-[-2rem] lg:w-[30rem] lg:top-[-8rem] lg:left-16" />
         </div>
       </div>
     </div>

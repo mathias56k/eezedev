@@ -10,7 +10,7 @@ const Pricing = () => {
       </div>
       <div className="p-8 pt-0 flex justify-center">
         <div className="w-full flex flex-col items-center md:items-start justify-center gap-8 md:gap-4 lg:gap-16 md:flex-row">
-          <div className="bg-[#e8e6ce] rounded-2xl w-full max-w-[27.2rem] md:h-[30rem] flex flex-col items-center">
+          <div className="bg-[#e8e6ce] rounded-2xl w-full max-w-[27.2rem] md:h-[30rem] flex flex-col items-center box-shadow-md shadow-[0_15px_0px_0px]">
             <div className="w-full h-[15%] flex items-center justify-center text-[#202831]">
               <p className="font-bold text-3xl">Standard</p>
             </div>
