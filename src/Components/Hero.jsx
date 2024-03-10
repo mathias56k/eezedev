@@ -4,64 +4,43 @@ const Hero = ({ navbarOpen }) => {
   const imgOpacity = navbarOpen ? 0 : 100;
 
   return (
-    <div className="h-[38rem] lg:h-[45rem] xl:h-[50rem] w-full">
-      <div className="w-full bg-[#e8e6ce] h-[28rem] rounded-b-[2rem] lg:rounded-b-[3rem] flex justify-center md:h-[28rem]">
+    <div className="h-[38rem] lg:h-[45rem] xl:h-[50rem] w-full flex justify-center">
         <div
-          className={`bg-[#202831] w-[90%] md:w-[90%] lg:h-[35rem] xl:h-[40rem] h-[30rem] rounded-[2.5rem] absolute top-[4.6rem] opacity-${imgOpacity} delay-100 transition-opacity duration-300`}
+          className={`bg-[#28293C] w-[90%] md:w-[90%] lg:h-[35rem] xl:h-[40rem] h-[30rem] rounded-[2.5rem] absolute top-[4.6rem] opacity-${imgOpacity} delay-100 transition-opacity duration-300`}
         >
-          <img
-            src="./line.svg"
-            alt=""
-            className="w-[17rem] lg:w-[22rem] lg:top-[17.93rem] xl:w-[30rem] xl:top-[16.72rem] absolute top-[16.8rem] z-10 right-[20]"
-          />
           <div className="h-full w-full flex items-start justify-center pt-16">
-            <div className="text-5xl font-black sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#e8e6ce] tracking-wide flex flex-col items-center">
+            <div className="text-5xl font-black sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#F8F8FF] tracking-wide flex flex-col items-center">
               <span className="inline-flex items-center leading-[0.9]">
                 <span>BEAUTIFUL</span>
                 <img
                   src="./star.svg"
                   alt="Beautiful Image"
-                  className="w-10 md:w-14 md:mt-[-3rem] xl:w-16 ml-[-1.25rem] mt-[-2rem] rotate-[30deg]"
+                  className="w-10 md:w-14 md:mt-[-3rem] xl:w-16 ml-[-1.25rem] mt-[-2.5rem] rotate-[15deg]"
                 />
                 <img
                   src="./star.svg"
                   alt="Beautiful Image"
-                  className="w-4 md:w-6 ml-[-1.5rem] xl:w-8 xl:mt-[2rem] xl:ml-[-2rem] mt-[.5rem] rotate-[20deg]"
+                  className="w-5 md:w-6 ml-[-1.3rem] xl:w-8 xl:mt-[2rem] xl:ml-[-2rem] rotate-[30deg]"
                 />
               </span>
               <span className="leading-[0.9]">WEBSITES</span>
               <span className="leading-[0.9]">MADE</span>
-              <span className="text-[#46a2a1] lg:ml-4 inline-flex flex-col h-[calc(theme(fontSize.5xl)*0.9)] sm:h-[calc(theme(fontSize.6xl)*0.9)] md:h-[calc(theme(fontSize.7xl)*0.9)] lg:h-[calc(theme(fontSize.8xl)*0.9)] xl:h-[calc(theme(fontSize.8xl)*0.9)] overflow-hidden">
+              <span className=" text-gradient-to-r lg:ml-4 inline-flex flex-col h-[calc(theme(fontSize.5xl)*0.9)] sm:h-[calc(theme(fontSize.6xl)*0.9)] md:h-[calc(theme(fontSize.7xl)*0.9)] lg:h-[calc(theme(fontSize.8xl)*0.9)] xl:h-[calc(theme(fontSize.8xl)*0.9)] overflow-hidden">
                 <ul className="block animate-text-slide-5 text-center leading-[0.9] [&_li]:block">
-                  <li>EASY</li>
-                  <li>FAST</li>
-                  <li>CHEAP</li>
-                  <li>FROM US</li>
-                  <li>TO YOU</li>
-                  <li aria-hidden="true">EASY</li>
+                  <li className="bg-gradient-to-r from-[#7289F4] to-[#2CB67D] text-transparent bg-clip-text inline-block">EASY</li>
+                  <li className="bg-gradient-to-r from-[#7289F4] to-[#2CB67D] text-transparent bg-clip-text inline-block">FAST</li>
+                  <li className="bg-gradient-to-r from-[#7289F4] to-[#2CB67D] text-transparent bg-clip-text inline-block">CHEAP</li>
+                  <li className="bg-gradient-to-r from-[#7289F4] to-[#2CB67D] text-transparent bg-clip-text inline-block">FROM US</li>
+                  <li className="bg-gradient-to-r from-[#7289F4] to-[#2CB67D] text-transparent bg-clip-text inline-block">TO YOU</li>
+                  <li className="bg-gradient-to-r from-[#7289F4] to-[#2CB67D] text-transparent bg-clip-text inline-block" aria-hidden="true">EASY</li>
                 </ul>
               </span>
             </div>
           </div>
           <div>
-          <img
-            src="./star-blank.svg"
-            alt=""
-            className="w-[9rem] animate-spin rotate-[30deg] absolute top-[17rem] right-[2.5rem] sm:w-[11rem] sm:top-[17.5rem] sm:right-[3.5rem] md:top-[17rem] md:right-[2.5rem] lg:w-[14rem] lg:right-[4rem] xl:w-[18rem] 2xl:w-[20rem] 2xl:right-[8rem]"
-          />
-          <div className="flex flex-col items-center leading-[.9] font-bold text-md absolute top-[19.6rem] right-[4.3rem] sm:text-xl sm:leading-[.9] sm:top-[20.4rem] sm:right-[5.3rem] md:top-[20rem] md:right-[4.3rem] lg:text-2xl lg:leading-[.9] lg:top-[21rem] lg:right-[6.4rem] xl:text-4xl xl:leading-[.9] xl:right-[7.5rem] xl:top-[22rem] 2xl:right-[12.5rem] 2xl:top-[23rem] rotate-12 text-[#202831]">
-            <p>HASSLE</p>
-            <p className="font-black text-4xl leading-[.9] sm:text-5xl sm:leading-[.9] lg:text-6xl lg:leading-[.9] xl:text-7xl xl:leading-[.9]">
-              FREE
-            </p>
-            <p className="text-sm leading-[.9] sm:text-lg sm:leading-[.9] lg:text-xl lg:leading-[.9] xl:text-3xl xl:leading-[.9]">
-              GUARANTEE
-            </p>
-          </div>
         </div>
         </div>
       </div>
-    </div>
   );
 };
 

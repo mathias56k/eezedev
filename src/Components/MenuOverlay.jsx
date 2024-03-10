@@ -19,7 +19,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
 
   return (
     <nav
-      className={`fixed flex flex-col justify-between top-0 right-0 w-full z-14 h-full bg-[#e8e6ce] text-[#202831] bg-opacity-100 transform delay-100 transition-all duration-300 ${
+      className={`fixed flex flex-col justify-between top-0 right-0 w-full z-14 h-full bg-[#16161A] text-[#F8F8FF] bg-opacity-100 transform delay-100 transition-all duration-300 ${
         navbarOpen ? "opacity-100 translate-x-0 z-20" : "opacity-0 translate-x-full"
       }`}
     >
@@ -27,7 +27,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link hover:text-[#46a2a1]"
+            className="nav-link hover:text-transparent bg-gradient-to-r from-[#7289F4] to-[#2CB67D] bg-clip-text inline-block"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);
@@ -39,7 +39,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link hover:text-[#46a2a1]"
+            className="nav-link hover:text-transparent bg-gradient-to-r from-[#7289F4] to-[#2CB67D] bg-clip-text inline-block"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);
@@ -51,7 +51,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link hover:text-[#46a2a1]"
+            className="nav-link hover:text-transparent bg-gradient-to-r from-[#7289F4] to-[#2CB67D] bg-clip-text inline-block"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);
@@ -63,7 +63,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
-            className="nav-link hover:text-[#46a2a1]"
+            className="nav-link hover:text-transparent bg-gradient-to-r from-[#7289F4] to-[#2CB67D] bg-clip-text inline-block"
             onClick={(e) => {
               e.preventDefault();
               setNavbarOpen(false);
