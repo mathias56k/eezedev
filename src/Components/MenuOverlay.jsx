@@ -23,7 +23,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
         navbarOpen ? "opacity-100 translate-x-0 z-20" : "opacity-0 translate-x-full"
       }`}
     >
-      <ul className="w-full flex flex-col items-center justify-center h-full">
+      <ul className="w-full flex flex-col items-center justify-center h-full font-titleFont">
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
           <a
             href="/"
@@ -33,7 +33,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
               setNavbarOpen(false);
             }}
           >
-           about
+           About
           </a>
         </li>
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
@@ -45,7 +45,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
               setNavbarOpen(false);
             }}
           >
-           projects
+           Projects
           </a>
         </li>
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
@@ -57,7 +57,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
               setNavbarOpen(false);
             }}
           >
-           contact
+           Contact
           </a>
         </li>
         <li className="nav-li text-[4.25rem] max-[490px]:text-[3.5rem] font-semibold font-sourceCodePro">
@@ -69,7 +69,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
               setNavbarOpen(false);
             }}
           >
-           faq
+           FAQ
           </a>
         </li>
       </ul>

@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sourceCodePro': ['Source Code Pro', 'sans-serif'],
+        'titleFont': ['Inter', 'sans-serif'],
+        'textFont': ['Padauk', 'sans-serif']
       },
       animation: {
         'text-slide-2': 'text-slide-2 5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
