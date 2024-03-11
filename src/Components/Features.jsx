@@ -14,7 +14,7 @@ const Features = () => {
             <div className="w-full h-[20%] flex items-start justify-center pt-2 md:row-span-1 md:col-span-1 md:h-[10rem]">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center w-[80%] justify-start">
-                        <img src="./euroSymbol.svg" className="h-7 w-7 mr-4 fill-[#7289F4]" alt="Euro symbol icon" />
+                        <img src="./icons/euroSymbol.svg" className="h-7 w-7 mr-4 fill-[#7289F4]" alt="Euro symbol icon" />
                         <p className="text-3xl font-bold font-titleFont">Affordable</p>
                     </div>
                     <div className="w-[80%] lg:w-[60%] flex my-2 leading-[1.35rem] text-[1.25rem] font-textFont">
@@ -36,7 +36,7 @@ const Features = () => {
             <div className="w-full h-[20%] flex items-start justify-center pt-2 md:row-span-1 md:col-span-1 md:h-[10rem]">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center w-[80%] justify-start">
-                        <img src="./speedometerIcon.svg" className="h-9 w-9 mr-4 fill-[#7289F4]" alt="Speedometer icon" />
+                        <img src="./icons/speedometerIcon.svg" className="h-9 w-9 mr-4 fill-[#7289F4]" alt="Speedometer icon" />
                         <p className="text-3xl font-bold font-titleFont">Fast</p>
                     </div>
                     <div className="w-[80%] lg:w-[60%] flex my-2 leading-[1.35rem] text-[1.25rem] font-textFont">
@@ -69,7 +69,7 @@ const Features = () => {
             <div className="w-full h-[20%] flex items-start justify-center pt-2 md:row-span-1 md:col-span-1 md:h-[10rem]">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center w-[80%] justify-start">
-                        <img src="./lightbulbIcon.svg" className="h-8 w-8 mr-4 fill-[#7289F4]" alt="Lightbulb icon" />
+                        <img src="./icons/lightbulbIcon.svg" className="h-8 w-8 mr-4 fill-[#7289F4]" alt="Lightbulb icon" />
                         <p className="text-3xl font-bold font-titleFont">Innovative</p>
                     </div>
                     <div className="w-[80%] lg:w-[60%] flex my-2 leading-[1.35rem] text-[1.25rem] font-textFont">

@@ -13,12 +13,12 @@ const Hero = ({ navbarOpen }) => {
               <span className="inline-flex items-center leading-[0.9]">
                 <span className="font-titleFont">BEAUTIFUL</span>
                 <img
-                  src="./star.svg"
+                  src="./icons/star.svg"
                   alt="Beautiful Image"
                   className="w-10 md:w-14 md:mt-[-3rem] xl:w-16 ml-[-1.25rem] mt-[-2.5rem] rotate-[15deg]"
                 />
                 <img
-                  src="./star.svg"
+                  src="./icons/star.svg"
                   alt="Beautiful Image"
                   className="w-5 md:w-6 ml-[-1.3rem] xl:w-8 xl:mt-[2rem] xl:ml-[-2rem] rotate-[30deg]"
                 />
@@ -39,7 +39,7 @@ const Hero = ({ navbarOpen }) => {
             <div className="w-full h-[30%] flex items-start justify-center">
               <div className="bg-[#7289F4] w-[80%] h-[70%] rounded-[15px] flex items-center justify-around px-4">
                 <h3 className="font-titleFont font-bold text-3xl text-[#F8F8FF]">See prices</h3>
-                <img src="arrowDownIcon.svg" className="w-9 h-9" alt="" />
+                <img src="./icons/arrowDownIcon.svg" className="w-9 h-9" alt="" />
               </div>
             </div>
           </div>

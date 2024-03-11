@@ -21,27 +21,27 @@ const Pricing = () => {
             </div>
             <div className="w-full h-[50%] flex flex-col gap-4 items-center">
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">One active job at a time</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Unlimited requests</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Average 48h delivery</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Fast & SEO optimized</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Easy credit-card payments</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Pause or cancel any time</p>
               </div>
             </div>
@@ -62,27 +62,27 @@ const Pricing = () => {
             </div>
             <div className="w-full h-[50%] flex flex-col gap-4 items-center">
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">One active job at a time</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Unlimited requests</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Average 48h delivery</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Fast & SEO optimized</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Easy credit-card payments</p>
               </div>
               <div className="flex items-center justify-start gap-3 pl-8 w-full">
-                <img src="./checkmarkIcon.svg" className="h-6 w-6" alt="" />
+                <img src="./icons/checkmarkIcon.svg" className="h-6 w-6" alt="" />
                 <p className="font-textFont text-2xl tracking-tight mt-[.2rem] leading-3">Pause or cancel any time</p>
               </div>
             </div>
