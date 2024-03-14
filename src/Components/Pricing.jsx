@@ -91,7 +91,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="w-full h-[20%] flex items-center justify-center md:hidden">
-              <button className="bg-[#7289F4] rounded-[10px] w-[80%] h-[65%]">
+              <button className="bg-gradient-shift rounded-[10px] w-[80%] h-[65%]">
                 <p className="font-titleFont font-bold text-[2rem]">
                   Start now
                 </p>
@@ -174,7 +174,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="w-full h-[20%] flex items-center justify-center md:hidden">
-              <button className="bg-[#7289F4] rounded-[10px] w-[80%] h-[65%]">
+              <button className="bg-gradient-shift rounded-[10px] w-[80%] h-[65%]">
                 <p className="font-titleFont font-bold text-[2rem]">
                   Start now
                 </p>
@@ -183,7 +183,7 @@ const Pricing = () => {
           </div>
         </div>
         <div className="max-[768px]:hidden mt-10 flex items-center justify-center container-two fill-two">
-          <button className="bg-gradient-shift w-[30rem] h-[5rem] rounded-[10px] animate-button">
+          <button className="bg-gradient-shift w-[30rem] h-[5rem] rounded-[10px]">
             <p className="font-titleFont text-5xl font-extrabold">Start now</p>
           </button>
         </div>
